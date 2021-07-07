@@ -7,6 +7,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 public class MainController
 {
 
+	//홈으로 이동
 	@RequestMapping("/")
 	public String home() {
 		return "home";
