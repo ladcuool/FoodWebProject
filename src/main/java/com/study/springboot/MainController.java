@@ -12,4 +12,10 @@ public class MainController
 	public String home() {
 		return "home";
 	}
+	
+	@RequestMapping("/join")
+	public String join() {
+		return "join";
+	}
+	
 }
